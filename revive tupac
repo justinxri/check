@@ -1,0 +1,123 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "revive tupac", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Just use a library",
+	Content = "justin just did this in like 10 minutes lol",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+local CBRO = Window:MakeTab({
+	Name = "CBRO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+CBRO:AddButton({
+	Name = "hexagon",
+	Callback = function()
+	    if game.PlaceId == 301549746
+	    then
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/emptiness6969/rblxscripts/main/hexagonfix.lua"))()
+	    OrionLib:MakeNotification({
+	Name = "Success!",
+	Content = "Enjoy being gay!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+else
+    wait()
+    OrionLib:MakeNotification({
+	Name = "Oh no!",
+	Content = "It appears this script is not compatible with this game.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+	    end
+	    end
+})
+CBRO:AddButton({
+	Name = "Multi-script loader",
+	Callback = function()
+	    if game.PlaceId == 301549746
+	    then
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua", true))()
+	    OrionLib:MakeNotification({
+	Name = "Success!",
+	Content = "Enjoy being gay!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+else
+    wait()
+    OrionLib:MakeNotification({
+	Name = "Oh no!",
+	Content = "It appears this script is not compatible with this game.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+end
+end
+})
+local PhantomF = Window:MakeTab({
+	Name = "Phantom forces",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+PhantomF:AddButton({
+	Name = "Legit extender",
+	Callback = function()
+	    if game.PlaceId == 292439477
+	    then
+	    loadstring(game:HttpGet('https://pastebin.com/zLVTxcYE'))()
+	    	    OrionLib:MakeNotification({
+	Name = "Success!",
+	Content = "Enjoy being gay!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+else
+    	   OrionLib:MakeNotification({
+	Name = "Oh no!",
+	Content = "This script is not compatible with this game.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+	    end
+	    end
+})
+PhantomF:AddButton({
+	Name = "Simple esp+aim",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/ph_hub.lua", true))()
+      		print("Use aimbot with caution.")
+  	end    
+})
+PhantomF:AddButton({
+	Name = "Full Gui",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+      		print("Be very careful, alt is adviced.")
+  	end    
+})
+local DaHood = Window:MakeTab({
+	Name = "DaHood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+DaHood:AddButton({
+	Name = "Multi-script loader",
+	Callback = function()
+	    loadstring(game:HttpGet('https://raw.githubusercontent.com/Halloween123456/v2/main/halloweenhub'))()
+      		print("If any of these contain loggers, that's your problem not mine.")
+  	end    
+})
+DaHood:AddButton({
+	Name = "RayX",
+	Callback = function()
+	    if game.PlaceId == 2788229376 then
+	    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+      		print("Use with caution, alt adviced.")
+      		else
+      		    print("This script only works in DaHood.")
+	    end    
+  end
+})
